@@ -1,0 +1,24 @@
+# PlatformIO & Arduino build artifacts
+.pio/
+.vscode/
+build/
+*.hex
+*.elf
+*.bin
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Environment variables & secrets (Never commit secrets)
+.env
+*.env
+secrets.h
+
+# OS metadata
+.DS_Store
+Thumbs.db
